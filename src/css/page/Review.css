@@ -1,0 +1,15 @@
+/*--------------------------------------Review----------------------------------- */
+
+.rev2 {
+    border-radius: 8px;
+    border: 3px dotted black;
+      color: rgb(0, 0, 0);
+      padding: 30px;
+      width: auto;
+      height: 350px;
+      background-color: rgb(255, 255, 255);   
+    
+    }
+    .revtext{
+      height: 200px;
+    }

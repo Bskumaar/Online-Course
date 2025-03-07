@@ -1,0 +1,53 @@
+/*--------------------------------------Side bar----------------------------------- */
+
+.sidebar{
+
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 56px; 
+    left: 0;
+    background: #222; 
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; 
+  
+}
+.navlink {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.sidebarbtn{
+  
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  color: white;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  border-radius: 8px;
+    
+}
+.sidebarbtn:hover {
+  background: #444; 
+  transform: scale(1.05);
+}
+.sidebarbtn:focus {
+  background: #555;
+}
+
+.content {
+  margin-left: 300px;
+  width: calc(100% - 300px);
+  min-height: 100vh;
+  padding-top: 70px; 
+}

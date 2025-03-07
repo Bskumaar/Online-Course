@@ -1,0 +1,23 @@
+/*---------------------------------------Footer------------------------------------------*/
+
+
+/* Footer Links */
+.footermain{
+    background-color: #28a745;
+  }
+  .footer  {
+    
+    color: #ffffff !important;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer:hover {
+    color: #000000!important; 
+    text-decoration: underline;
+  }
+  
+  
+  
+  

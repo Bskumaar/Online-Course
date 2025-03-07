@@ -1,0 +1,52 @@
+/*--------------------------------------Patner----------------------------------- */
+
+.company1 {
+    text-align: center;
+    padding: 20px;
+   
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Scrolling Container */
+  .company2 {
+    display: flex;
+    gap: 34px; 
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Animation for infinite left scroll */
+  @keyframes scrollLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scroll-wrapper {
+    display: flex;
+    gap: 20px;
+    animation: scrollLeft 12s linear infinite; 
+  }
+  
+  /* Styling for logos */
+  .companys {
+    width: 120px; 
+    height: auto;
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .companys:hover {
+    transform: scale(1.15);
+  }

@@ -1,0 +1,67 @@
+
+  /*--------------------------------------Querys----------------------------------- */
+
+  .querybtn {
+    display: block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .querybtn:hover {
+    background-color: #218838;
+  }
+  .modal-content {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  .modalbody input,
+  .modalbody textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  .listgroup {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .queryitem {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .queryitem strong {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .queryitem p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .queryitem small {
+    font-size: 12px;
+    color: #777;
+  }
+  
+.qurno{
+    width: 250px;  
+    height: auto; 
+  
+  }

@@ -21,7 +21,7 @@ function Allcourse() {
         <button className='allcoursediv' onClick={() => setSelectedCourse('datascience')}>Data Science</button>
         <button className='allcoursediv' onClick={() => setSelectedCourse('uiux')}>UI/UX</button>
         <button className='allcoursediv' onClick={() => setSelectedCourse('testing')}>Software Testing</button>
-        <button className='allcoursediv'>Fullstack Development</button>    
+          
         <div className='coursedetailsmain'>
         {selectedCourse === 'frontend' && <Frontend />}
         {selectedCourse === 'fullstack' && <Fullstack />}

@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/page/Info.css";
+import "../css/page/info.css";
 
 function Info({ massage, himage, list1, list2, list3 }) {
     return (

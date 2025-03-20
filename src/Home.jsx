@@ -12,7 +12,7 @@ import frontend from './assets/frontend.jpg'
 import fullstack from './assets/fullstack.jpg'
 import data from './assets/data.jpg'
 import uiux from './assets/uiux.jpg'
-import Login from './mainportal/Login';
+
 //image
 import jobsearch from './assets/job search.png'
 import hours from './assets/24 hours.png'
@@ -42,6 +42,7 @@ function Home() {
       <div className='mt-5'> 
         <h1>Trending Course</h1>
         <div className='ps-5 pe-5 d-flex container-fluid gap-5 mt-4'>
+      
           <Popularcourse name="Frontend Development" img={frontend} />
           <Popularcourse name="Fullstack Development" img={fullstack} />
           <Popularcourse name="Data Scince" img={data} />
@@ -72,14 +73,7 @@ function Home() {
       <div className='mt-5'>  <Partner/></div>
  
 
-      {/* <div className='container-fluid review mb-5'>
-        <div className='row mt-5    '>
-          <div className='col-sm-4  '> <Review rev="ramesh,Chennai" para="Attending the one-month virtual Python programming course was a truly enriching experience. The course was well-structured, covering fundamental concepts like data types, loops, and functions, as well as more advanced topics such as object-oriented programming and working with libraries. The hands-on exercises and projects helped me solidify my understanding and gain confidence in coding." /> </div>
-          <div className='col-sm-4 ' > <Review rev="ramu, Selam" para="I recently completed the one-month Java programming course offered by Besant Technology and had an outstanding learning experience. The comprehensive curriculum, engaging teaching style, and hands-on exercises made the course both informative and enjoyable. The instructor's expertise and support were exceptional, creating a conducive learning environment. I highly recommend this course to anyone interested in learning java and look forward to future courses from Besant Technology." /> </div>
-          <div className='col-sm-4 '> <Review rev="velu,Mudhurai" para="N.Rahul Trainer -- I recently completed the one-month Full Stack programming course offered by Besant Technology and had an outstanding learning experience. The comprehensive curriculum, engaging teaching style, and hands-on exercises made the course both informative and enjoyable. The instructor's expertise and support were exceptional, creating a conducive learning environment. Although the pace was sometimes challenging for beginners, the interactive coding sessions and clear explanations helped solidify my understanding of full stack fundamentals." /> </div>
-
-        </div>
-      </div> */}
+      
 
       <Footer />
 

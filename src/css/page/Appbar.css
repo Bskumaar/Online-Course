@@ -1,35 +1,37 @@
-/* Navbar brand styling */
+/* Modern Glassmorphic Navbar */
+.custom-navbar {
+  background: rgba(20, 20, 20, 0.7); /* Dark glass effect */
+  backdrop-filter: blur(10px);
+  padding: 15px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Navbar Brand */
 .navbar-brand {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #ffffff !important; 
+  color: #ffffff !important;
   transition: color 0.3s ease-in-out;
 }
 
 .navbar-brand:hover {
-  color: #ffffff !important; 
+  color: #0084ff !important;
 }
 
-/* Navigation bar background */
-.custom-navbar {
-  background: linear-gradient(135deg, #001f3f, #004080) !important;
-  padding: 15px 20px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
-}
-
-/* Navigation links */
+/* Navigation Links */
 .nav-links .nav-link {
   color: #ffffff !important;
   font-size: 1.1rem;
-  font-weight: 500;
   margin: 0 15px;
   transition: color 0.3s ease-in-out;
 }
 
 .nav-links .nav-link:hover {
-  color: #ffffff !important; 
-  text-decoration: underline;
+  color: #0084ff !important;
 }
+
+
 
 /* Search Bar */
 .search-form {
@@ -37,54 +39,48 @@
   align-items: center;
 }
 
+/* Simple Search Box */
 .search-input {
-  border-radius: 25px;
-  padding: 10px 15px;
-  border: 1px solid #ffffff;
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  transition: background 0.3s, border 0.3s;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
 }
 
+/* Placeholder Color */
 .search-input::placeholder {
-  color: #cccccc;
+  color: #888888;
 }
 
+/* Border Highlight on Focus */
 .search-input:focus {
-  background: rgba(255, 255, 255, 0.2);
-  border-color:#ffffff;
+  border-color: #007bff;
 }
 
-/* Search button */
-.search-btn {
-  margin-left: 8px;
-  border-radius: 25px;
-  background-color: transparent;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-  padding: 8px 15px;
-  transition: all 0.3s ease;
-}
 
-.search-btn:hover {
-  background: #ffffff;
-  color: #001f3f;
-}
-
-/* Portal Login button */
+/* Modern Gradient Login Button */
 .portal-btn {
-  margin-left: 15px;
-  background: #ffffff !important;
-  color: #001f3f !important;
+  margin-left: 20px;
+  background: linear-gradient(135deg, #0066ff, #00ccff);
+  color: #ffffff;
   font-weight: bold;
   border-radius: 25px;
-  padding: 10px 20px;
-  border: 2px solid transparent;
+  padding: 10px 25px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 132, 255, 0.3);
 }
 
+/* Hover Effect */
 .portal-btn:hover {
-  background: transparent !important;
-  color: #eff2f3 !important;
-  border: 2px solid #00d4ff;
+  background: linear-gradient(135deg, #0052cc, #00aaff);
+  transform: scale(1.05);
+  box-shadow: 0 5px 12px rgba(0, 132, 255, 0.5);
 }
+

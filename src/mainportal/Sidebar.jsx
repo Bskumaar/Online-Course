@@ -13,6 +13,7 @@ import "../css/portal/Sidebar.css";
 function Sidebar() {
   const [currentPage, setCurrentPage] = useState("mydetails")
 
+
   const renderPage = () => {
     switch (currentPage) {
       case "mydetails":
@@ -35,6 +36,7 @@ function Sidebar() {
                     return <Syllabus />;
     }
   }
+  
   return (
     <div className='d-flex'>
       <div 
